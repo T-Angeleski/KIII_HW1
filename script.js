@@ -1,7 +1,9 @@
 const button = document.getElementById("counter");
 const counter = document.getElementById("total");
 
+let COUNTER = parseInt(counter.innerHTML);
+
 function increaseCounter() {
-    // TODO: Implement
-    console.log("Working");
+    COUNTER++;
+    counter.innerHTML = COUNTER;
 }
